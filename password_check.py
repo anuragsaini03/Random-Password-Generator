@@ -1,13 +1,13 @@
 # login program and indentation
-# email -> nitish.campusx@gmail.com
+# email -> xyz@gmail.com
 # password -> 1234
 
 email = input('enter email')
 password = input('enter password')
 
-if email == 'anurag.saini.tech@gmail.com' and password == '1234':
+if email == 'xyz@gmail.com' and password == '1234':
   print('Welcome')
-elif email == 'anurag.saini.tech@gmail.com' and password != '1234':
+elif email == 'xyz@gmail.com' and password != '1234':
   # tell the user
   print('Incorrect password')
   password = input('enter password again')
